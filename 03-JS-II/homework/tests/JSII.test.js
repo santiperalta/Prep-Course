@@ -15,7 +15,15 @@ const {
   tablaDelSeis,
   tieneTresDigitos,
   doWhile
-} = require('../homework');
+} = require('../home {
+  case expression:
+
+    break;
+  default:
+
+}) {
+
+}
 
 
 describe('obtenerMayor(x, y)', function() {

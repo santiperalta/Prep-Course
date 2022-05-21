@@ -18,12 +18,25 @@ function obtenerLargoDelArray(array) {
 }
 
 
-function incrementarPorUno(array) {
+function incrementarPorUno(array) {W_OK: 2,
+    X_OK: 1,
+    UV_FS_COPYFILE_EXCL: 1,
+    COPYFILE_EXCL: 1,
+    UV_FS_COPYFILE_FICLONE: 2,
+    COPYFILE_FICLONE: 2,
+    UV_FS_COPYFILE_FICLONE_FORCE: 4,
+    COPYFILE_FICLONE_FORCE: 4
+  },
+  promises: [Getter]
+}
+>
+> rename
+Uncaught ReferenceError: rename is not define
   // "array" debe ser una matriz de enteros (int/integers)
   // Aumenta cada entero por 1
   // y devuelve el array
   // Tu código:
-}
+
 
 
 function agregarItemAlFinalDelArray(array, elemento) {
@@ -93,32 +106,32 @@ function cuentoElementos(arreglo){
 
 
 function diaDeLaSemana(numeroDeDia) {
-  //Suponga que los días de la semana se codifican como 1 = Domingo, 2 = Lunes y así sucesivamente. 
+  //Suponga que los días de la semana se codifican como 1 = Domingo, 2 = Lunes y así sucesivamente.
   //Realiza una función que dado el número del día de la semana, retorne: Es fin de semana
-  //si el día corresponde a Sábado o Domingo y “Es dia Laboral” en caso contrario. 
-  //Escribe tu código aquí   
-  
-} 
+  //si el día corresponde a Sábado o Domingo y “Es dia Laboral” en caso contrario.
+  //Escribe tu código aquí
+
+}
 
 
 function empiezaConNueve(n) {
-  //Desarrolle una función que recibe como parámetro un número entero n. Debe retornar true si el entero 
+  //Desarrolle una función que recibe como parámetro un número entero n. Debe retornar true si el entero
   //inicia con 9 y false en otro caso.
   //Escribe tu código aquí
-  
+
 }
 
 
 function todosIguales(arreglo) {
   //Escriba la función todosIguales, que indique si todos los elementos de un arreglo son iguales:
   //retornar true, caso contrario retornar false.
-  //Escribe tu código aquí  
-  
-} 
+  //Escribe tu código aquí
+
+}
 
 
 function mesesDelAño(array) {
-  //Dado un array que contiene algunos meses del año desordenados, recorrer el array buscando los meses de 
+  //Dado un array que contiene algunos meses del año desordenados, recorrer el array buscando los meses de
   // "Enero", "Marzo" y "Noviembre", guardarlo en nuevo array y retornarlo.
   //Si alguno de los meses no está, devolver: "No se encontraron los meses pedidos"
   // Tu código:
@@ -134,9 +147,9 @@ function mayorACien(array) {
 
 function breakStatement(numero) {
   //Iterar en un bucle aumentando en 2 el numero recibido hasta un límite de 10 veces.
-  //Guardar cada nuevo valor en un array. 
+  //Guardar cada nuevo valor en un array.
   //Devolver el array
-  //Si en algún momento el valor de la suma y la cantidad de iteraciones coinciden, debe interrumpirse la ejecución y 
+  //Si en algún momento el valor de la suma y la cantidad de iteraciones coinciden, debe interrumpirse la ejecución y
   //devolver: "Se interrumpió la ejecución"
   //Pista: usá el statement 'break'
   // Tu código:
@@ -145,7 +158,7 @@ function breakStatement(numero) {
 
 function continueStatement(numero) {
   //Iterar en un bucle aumentando en 2 el numero recibido hasta un límite de 10 veces.
-  //Guardar cada nuevo valor en un array.    
+  //Guardar cada nuevo valor en un array.
   //Devolver el array
   //Cuando el número de iteraciones alcance el valor 5, no se suma en ese caso y se continua con la siguiente iteración
   //Pista: usá el statement 'continue'
